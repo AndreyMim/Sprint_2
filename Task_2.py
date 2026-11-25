@@ -11,16 +11,13 @@
 class Movies:
     def __init__(self):
         self.movies = []
-        return
 
     def add_movie(self, movie):
         self.movies.append(movie)
-        return
 
 class Drama(Movies):
     def __init__(self):
         super().__init__()
-        return
 
     def add_movie(self, movie):
         super().add_movie(movie)
@@ -29,7 +26,6 @@ class Drama(Movies):
 class Comedy(Movies):
     def __init__(self):
         super().__init__()
-        return
 
     def add_movie(self, movie):
         super().add_movie(movie)
