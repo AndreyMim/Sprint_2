@@ -28,6 +28,7 @@ class PointsForPlace:
 
     @staticmethod
     def get_points_for_place(place):
+        points = 0
         if place > 100:
             print('Баллы начисляются только первым 100 участникам')
         elif place < 1:
